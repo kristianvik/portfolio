@@ -13,7 +13,8 @@
 body {
     background-color: #166d3b;
     background-image: linear-gradient(147deg, #125931 0%, #00340a 74%);
-    height: 100vh;
+    min-height: 100vh;
+    max-height: auto;
 }
 
 .jobtitle {
@@ -51,10 +52,12 @@ a {
 
 .pf-links {
     margin: 0 auto;
+    height: auto;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
 }
 .pf-links div{
     transition: transform .2s;
