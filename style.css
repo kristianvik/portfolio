@@ -99,6 +99,10 @@ a {
         width: 400px;
     }
 
+    .project-title {
+        font-size: 23px;
+    }
+
     .thumbnail {
         display: none;
     }
