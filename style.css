@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.centered {
+    margin: 100px auto;
+    width: 600px;
+    height: auto;
+}
+
+body {
+    background-color: #063628;
+}
+
+.jobtitle {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Fauna One', serif;
+    color: white;
+    margin-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #dbdbdb;
+}
+
+.links {
+    margin-bottom: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.pf-links {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-title {
+    position: absolute;
+    bottom: 0;
+    float: left;
+    padding: 15px;
+}
+
+.project-tripguard {
+    position: relative;
+    background-color: white;
+    height: 250px;
+}
+
+.project-void {
+    position: relative;
+    margin-top: 35px;
+    background-color: white;
+    height: 250px;
+}
