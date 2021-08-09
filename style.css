@@ -161,10 +161,12 @@ a {
     }
 
     .void-pic {
+        right: -50%;
         filter: opacity(40%);
     }
 
     .scrapbook-pic{
+        right: 0;
         filter: opacity(40%);
     }
 
