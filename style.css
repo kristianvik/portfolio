@@ -104,6 +104,11 @@ a {
     right: -30%;
     height: 200%;
     width: auto;
+    transition: transform .2s;
+}
+
+.void-pic:hover {
+    transform: scale(1.05);
 }
 
 
