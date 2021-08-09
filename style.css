@@ -4,7 +4,8 @@
   }
 
 .centered {
-    margin: 100px auto;
+    margin: 0 auto;
+    padding-top: 100px;
     width: 500px;
     height: auto;
 }
@@ -114,9 +115,13 @@ a {
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
     body {
       height: auto;
+    }
+
+    .centered {
+        padding-top: 20px;
     }
 
     .pf-links {
