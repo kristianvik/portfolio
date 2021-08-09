@@ -5,7 +5,7 @@
 
 .centered {
     margin: 100px auto;
-    width: 35vw;
+    width: 500px;
     height: auto;
 }
 
@@ -48,10 +48,16 @@ a {
 
 .pf-links {
     margin: 0 auto;
-    width: 500px;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+}
+.pf-links div{
+    transition: transform .2s;
+}
+
+.pf-links div:hover{
+    transform: scale(1.02);
 }
 
 .project-title {
@@ -65,26 +71,41 @@ a {
 }
 
 .project-tripguard {
+    overflow: hidden;
     position: relative;
-    background-color: white;
+    background-color: rgb(223, 223, 223);
     height: 250px;
 }
 
+.tripguard-pic {
+    height: 200%;
+    transform: rotate(20deg);
+    width: auto;
+    top: -6%;
+    right: 5%;
+    position: absolute;
+    transition: transform .2s;
+}
+
+.tripguard-pic:hover{
+    transform: scale(1.05) rotate(20deg);
+}
+
 .project-void {
+    overflow: hidden;
     position: relative;
     margin-top: 35px;
     background-color: white;
     height: 250px;
 }
 
-.thumbnail {
-    width: 100%;
-    height: auto;
+.void-pic {
+    position: absolute;
+    right: -30%;
+    height: 200%;
+    width: auto;
 }
 
-.thumbnail_mobile {
-    display: none;
-}
 
 @media only screen and (max-width: 800px) {
     body {
@@ -92,22 +113,15 @@ a {
     }
 
     .centered {
-        width: 80vw;
+        width: 90vw;
     }
 
-    .pf-links {
-        width: 400px;
+    .tripguard-pic {
+        filter: opacity(50%);
     }
 
-    .project-title {
-        font-size: 23px;
+    .void-pic {
+        filter: opacity(50%);
     }
 
-    .thumbnail {
-        display: none;
-    }
-
-    .thumbnail_mobile {
-        display: block;
-    }
   }
