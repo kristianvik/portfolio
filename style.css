@@ -95,7 +95,7 @@ a {
 }
 
 .tripguard-pic:hover{
-    transform: scale(1.05) rotate(20deg);
+    transform: scale(1.05) rotate(15deg);
 }
 
 .project-void {
@@ -115,7 +115,7 @@ a {
 }
 
 .void-pic:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) rotate(-5deg);
 }
 
 .project-scrapbook {
@@ -135,7 +135,7 @@ a {
 }
 
 .scrapbook-pic:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) rotate(10deg);
 }
 
 
