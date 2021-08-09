@@ -118,6 +118,26 @@ a {
     transform: scale(1.05);
 }
 
+.project-scrapbook {
+    margin-top: 35px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(240, 244, 220);
+    height: 250px;
+}
+
+.scrapbook-pic {
+    position: absolute;
+    right: -5%;
+    top: -25%;
+    height: 120%;
+    transition: transform .2s; 
+}
+
+.scrapbook-pic:hover {
+    transform: scale(1.05);
+}
+
 
 @media only screen and (max-width: 700px) {
     body {
@@ -141,6 +161,10 @@ a {
     }
 
     .void-pic {
+        filter: opacity(40%);
+    }
+
+    .scrapbook-pic{
         filter: opacity(40%);
     }
 
