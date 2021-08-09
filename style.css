@@ -49,6 +49,7 @@ a {
 .pf-links {
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     display: flex;
     flex-direction: column;
 }
@@ -117,16 +118,20 @@ a {
       height: auto;
     }
 
+    .pf-links {
+        font-weight: 500;
+    }
+
     .centered {
         width: 90vw;
     }
 
     .tripguard-pic {
-        filter: opacity(50%);
+        filter: opacity(40%);
     }
 
     .void-pic {
-        filter: opacity(50%);
+        filter: opacity(40%);
     }
 
   }
