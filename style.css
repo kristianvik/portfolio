@@ -10,8 +10,8 @@
 }
 
 body {
-    background: linear-gradient(to right,#511c7e,#1f2245);
-    height: 75vh;
+    background-image: linear-gradient(to right top, #0c264f, #002965, #002b7b, #002a90, #1b27a4);
+    height: 100vh;
 }
 
 .jobtitle {
