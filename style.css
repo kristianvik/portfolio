@@ -50,6 +50,11 @@ a {
     text-decoration-color: white;
 }
 
+.links a:focus {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
 .pf-links {
     margin: 0 auto;
     height: auto;
@@ -75,6 +80,10 @@ a {
     bottom: 0;
     float: left;
     padding: 15px;
+}
+
+.thumbnail:focus {
+    transform: scale(1.05);
 }
 
 .project-tripguard {
