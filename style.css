@@ -5,13 +5,13 @@
 
 .centered {
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 50px;
     width: 500px;
     height: auto;
 }
 
 body {
-    background-color: #1d1d1d;
+    background-color: #3A6351;
     min-height: 100vh;
     max-height: auto;
 }
@@ -80,8 +80,12 @@ a {
 .project-tripguard {
     overflow: hidden;
     position: relative;
-    background-color: rgb(223, 223, 223);
+    background-color: #5F939A;
     height: 250px;
+}
+
+.project-tripguard .project-title {
+    color: white;
 }
 
 .tripguard-pic {
@@ -102,16 +106,21 @@ a {
     overflow: hidden;
     position: relative;
     margin-top: 35px;
-    background-color: white;
+    background-color: #A0937D;
     height: 250px;
 }
 
 .void-pic {
     position: absolute;
-    right: -30%;
-    height: 200%;
+    top: -9%;
+    right: -15%;
+    height: 130%;
     width: auto;
     transition: transform .2s; 
+}
+
+.project-void .project-title {
+    color: white;
 }
 
 .void-pic:hover {
@@ -122,7 +131,7 @@ a {
     margin-top: 35px;
     overflow: hidden;
     position: relative;
-    background-color: rgb(240, 244, 220);
+    background-color: #F2EDD7;
     height: 250px;
 }
 
@@ -170,4 +179,10 @@ a {
         filter: opacity(40%);
     }
 
+  }
+
+  @media only screen and (max-width: 400px) {
+    .scrapbook-pic {
+        left: 2%;
+    }
   }
