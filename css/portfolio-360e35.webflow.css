@@ -1,5 +1,5 @@
 .body {
-  background-color: #098b55;
+  background-color: #181818;
 }
 
 .forsidediv {
@@ -36,7 +36,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: 'Pirata One', sans-serif;
-  color: #000;
+  color: #d4df72;
   font-size: 96px;
   line-height: 82%;
   letter-spacing: 0px;
@@ -92,7 +92,7 @@
   margin-top: 19vh;
   border-style: solid;
   border-width: 5px;
-  border-color: #2a502e;
+  border-color: #383838;
   border-radius: 0px;
   background-color: #111;
   box-shadow: 3px 3px 19px -12px #000;
