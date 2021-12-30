@@ -1,5 +1,8 @@
 .body {
   background-color: #181818;
+  /* Bug with border, without this the body is more than 100% height, dont know why */
+  border-color: transparent;
+  border-style: dotted;
 }
 
 .forsidediv {
