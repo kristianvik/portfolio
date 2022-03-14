@@ -1,2 +1,2 @@
 # portfolio
-My portfolio, hosted at www.kristianvik.no
+My portfolio, hosted at kristianvik.no
