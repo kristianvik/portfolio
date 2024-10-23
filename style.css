@@ -1,18 +1,21 @@
 body {
     font-family: 'Inter', sans-serif;
     margin: 30px;
+    background-color: #1b1b1b
 }
 
 h2 {
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 8px;
+    color: #f5f5f5;
 }
 
 h3 {
     font-weight: 500;
     font-size: 12px;
     margin-bottom: 4px;
+    color: white;
 }
 
 p {
@@ -20,10 +23,11 @@ p {
     font-size: 12px;
     color: #323232;
     margin: 2px 0 2px 0;
+    color: #bdbdbd;
 }
 
 a {
-    color: #323232;
+    color: #bdbdbd;
 }
 
 a:link {
